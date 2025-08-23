@@ -1,0 +1,10 @@
+/* Cambiar color solo al enlace del Índex Curs */
+.md-nav__link[href="https://jbonache.github.io/PI/"] {
+  color: red !important;       /* texto */
+  font-weight: bold;           /* opcional */
+}
+
+.md-nav__link[href="https://jbonache.github.io/PI/"]:hover {
+  color: darkred !important;
+}
+
